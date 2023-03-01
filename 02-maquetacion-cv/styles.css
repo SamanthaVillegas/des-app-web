@@ -1,3 +1,39 @@
-h2 {
-    color: 
+header, section{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+}
+header {
+    background-color:#727F49;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #EEDDC8;
+}
+section{
+    background-color: #EEDDC8;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #AB8461;
+}
+img{
+    margin-right: 16px;
+}
+.flex{
+    display: flex;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img{
+    max-width: 50%;
+}
+#MENU{
+    display: flex;
+    justify-content: space-around;
 }

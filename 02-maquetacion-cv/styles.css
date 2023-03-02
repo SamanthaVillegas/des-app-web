@@ -14,12 +14,16 @@ header {
 }
 section{
     background-color: #EEDDC8;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 16px;
     padding-right: 16px;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #AB8461;
 }
 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 16px;
 }
 .flex{
@@ -34,6 +38,59 @@ img{
     max-width: 50%;
 }
 #MENU{
+
     display: flex;
     justify-content: space-around;
+}
+a:hover{
+
+    background: #A8B375;
+    color: #EEDDC8;
+    padding: 8px;
+}
+a:active{
+
+    background: #EEDDC8;
+    color: #EEDDC8;
+    padding: 5px;
+}
+#sam img{
+    border-radius: 100%;
+}
+#kitty{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#cremas{
+    margin-bottom: 15px;
+}
+#bts{
+    margin-bottom: 15px;
+}
+#monos{
+    margin-bottom: 15px;
+}
+#room{
+    margin-bottom: 15px;
+}
+#pajaro{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#flores{
+    margin-bottom: 15px;
+}
+#manzanas{
+    margin-bottom: 15px;
+}
+#guacamaya{
+    margin-bottom: 15px;
+}
+#cont{
+   background-color: #AB8461;
+   color:#EEDDC8;
+}
+#ubi{
+    background-color: #A8B375;
+    color: #697049;
 }
